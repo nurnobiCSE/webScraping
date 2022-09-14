@@ -51,5 +51,7 @@ x= np.array(twoWrdPname)
 y = np.array(p_price)
 plt.bar(x,y)
 plt.show()
+
+# for save to cvs format
 df.to_csv('product.csv')
 print("saved your CSV file!")
